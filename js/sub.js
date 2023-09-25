@@ -73,7 +73,7 @@ var book3;
 //텍스트 파일 1
 
 $(function(){
-    $.get("../../text/four.txt", function(data){
+    $.get("../text/four.txt", function(data){
         $(".textfour").html(data);
     })
 });
@@ -81,7 +81,7 @@ $(function(){
 //텍스트 파일 2
 
 $(function(){
-    $.get("../../text/five.txt", function(data){
+    $.get("../text/five.txt", function(data){
         $(".textfive").html(data);
     })
 });
