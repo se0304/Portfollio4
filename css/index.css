@@ -958,7 +958,6 @@ header .headerslide img {
 .contentwrap .section-2 .section2book .section2slide .boxsection2book {
   width: 220px;
   height: 320px;
-  background-color: #0080ff;
   position: absolute;
   top: 20px;
   left: 13%;
@@ -1160,7 +1159,6 @@ header .headerslide img {
 .contentwrap .section-4 .section4-2 {
   width: 241.1px;
   height: 371px;
-  background-color: red;
   position: absolute;
   right: 0;
   background: url(/img/bg.jpg);
@@ -1548,7 +1546,6 @@ header .headerslide img {
   position: relative;
   width: 1200px;
   height: 75px;
-  background-color: red;
   top: 11.3%;
   overflow: hidden;
 }
