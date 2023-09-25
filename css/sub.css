@@ -375,7 +375,7 @@ footer .footerline .footer-3 {
   margin: 0 auto;
   position: relative;
   top: 3%;
-  background: url(/img/footerlogo.png);
+  background: url(../img/footerlogo.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -604,7 +604,6 @@ footer .footerline .footer-4 span a:hover {
 .content .content-0 .content-01 .content-book {
   width: 400px;
   height: 583.22px;
-  background-color: red;
 }
 .content .content-0 .content-01 .content-book img {
   width: 100%;
@@ -1639,7 +1638,6 @@ footer .footerline .footer-4 span a:hover {
 .content .content-3 .six .imgbox {
   width: 940px;
   height: 2480px;
-  background-color: #425ca9;
   position: absolute;
   top: 2.4%;
 }
