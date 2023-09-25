@@ -1,17 +1,5 @@
 @charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-}
-
-ol, ul, li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
+@import '../css/reset.css';
 header {
   width: 100%;
   height: 194px;
@@ -725,14 +713,14 @@ header .headerslide img {
   height: 38px;
   text-align: center;
   letter-spacing: 6px;
-  background-image: url(/img/icon.png);
+  background-image: url(./img/icon.png);
 }
 .contentwrap .section-1 .imgbannerslide .slidewrap .next {
   right: 0;
   width: 34px;
   height: 38px;
   letter-spacing: -5px;
-  background-image: url(/img/icon.png);
+  background-image: url(./img/icon.png);
   transform: rotate(180deg);
   position: absolute;
   top: 40%;
@@ -987,7 +975,7 @@ header .headerslide img {
   z-index: 7;
   width: 700px;
   height: 30px;
-  background: url(/img/icon.png) no-repeat -380px -450px;
+  background: url(./img/icon.png) no-repeat -380px -450px;
 }
 .contentwrap .section-3 {
   position: relative;
@@ -1014,7 +1002,7 @@ header .headerslide img {
 .contentwrap .section-3 h3 a em {
   width: 10px;
   height: 15px;
-  background-image: url(/img/icon4.png);
+  background-image: url(./img/icon4.png);
   position: absolute;
   background-repeat: no-repeat;
   top: 9.69%;
@@ -1082,7 +1070,7 @@ header .headerslide img {
   width: 13px;
   height: 9px;
   overflow: hidden;
-  background: url(/img/icon.png) no-repeat -160px 0;
+  background: url(./img/icon.png) no-repeat -160px 0;
 }
 .contentwrap .section-3 .section3-2 ul {
   position: absolute;
@@ -1137,7 +1125,7 @@ header .headerslide img {
 .contentwrap .section-4 .section4 h3 a em {
   width: 10px;
   height: 15px;
-  background-image: url(/img/icon4.png);
+  background-image: url(./img/icon4.png);
   position: absolute;
   background-repeat: no-repeat;
   top: 29.5%;
@@ -1572,7 +1560,7 @@ header .headerslide img {
   height: 38px;
   text-align: center;
   letter-spacing: 6px;
-  background-image: url(/img/icon.png);
+  background-image: url(./img/icon.png);
   cursor: pointer;
   display: none;
 }
@@ -1581,7 +1569,7 @@ header .headerslide img {
   width: 34px;
   height: 38px;
   letter-spacing: -5px;
-  background-image: url(/img/icon.png);
+  background-image: url(./img/icon.png);
   transform: rotate(180deg);
   position: absolute;
   top: 17px;
